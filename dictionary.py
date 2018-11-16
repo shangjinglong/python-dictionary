@@ -1,9 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-import os
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QFileDialog, QWidget
 
 class Dictionary:
     db = ''
