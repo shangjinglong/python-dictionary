@@ -33,5 +33,4 @@ coll = COLLECT(exe,
                a.datas,
                strip=False,
                upx=True,
-               icon='logo.ico',
                name='Dictionary')
