@@ -23,7 +23,7 @@ class MyApp(wx.App):
         self.text_host = wx.TextCtrl(panel, -1, size=(200, 30), pos=(130, 40), value="localhost")
         self.text_port = wx.TextCtrl(panel, -1, size=(200, 30), pos=(130, 80), value="3306")
         self.text_user = wx.TextCtrl(panel, -1, size=(200, 30), pos=(130, 120), value="root")
-        self.text_pass = wx.TextCtrl(panel, -1, size=(200, 30), pos=(130, 160), value="123456")
+        self.text_pass = wx.TextCtrl(panel, -1, style=wx.TE_PASSWORD, size=(200, 30), pos=(130, 160), value="123456")
         self.text_db = wx.TextCtrl(panel, -1, size=(200, 30), pos=(130, 200), value="test")
         self.btn_generate = wx.Button(panel, -1, "生成", size=(250, 30), pos=(80, 250))
 
